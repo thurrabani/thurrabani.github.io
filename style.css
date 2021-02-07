@@ -1,0 +1,227 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            margin: 0;
+        }
+        
+        .container {
+            width: 80%;
+            overflow: hidden;
+            margin: auto;
+        }
+        
+        .navbar .navbar-nav .nav-item .nav-link {
+            color: white;
+            float: right;
+            margin-left: 20px;
+            font-size: 18px;
+            display: block;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: solid;
+        }
+        
+        .navbar .navbar-nav .nav-item .nav-link:hover {
+            color: wheat;
+        }
+        
+        .about {
+            height: 100vh;
+            background: url("images/page1.jpg") no-repeat;
+            background-size: cover;
+            display: flex;
+        }
+        
+        .skill {
+            height: 100vh;
+            background: url("images/page2.jpg") no-repeat center;
+            background-size: cover;
+            display: flex;
+            width: 100%;
+        }
+        
+        .mywork {
+            height: 100vh;
+            background: url("images/page3.jpg") no-repeat top;
+            background-size: cover;
+            background-size: 100%;
+            display: flex;
+            width: 100%;
+        }
+        
+        .contact {
+            height: 100vh;
+            background: url("images/page4.jpg") no-repeat bottom;
+            background-size: cover;
+            display: flex;
+            width: 100%;
+        }
+        
+        .about .judul {
+            color: white;
+        }
+        
+        .about .paragraf {
+            color: white;
+            margin-top: 30px;
+            font-size: 27px;
+        }
+        
+        .about .btn-primary {
+            padding: 12px 58px 12px 58px;
+            border: 0;
+            background: beige;
+            color: black;
+            font-weight: bold;
+        }
+        
+        .about .pict .frame {
+            width: 200px;
+            height: 300px;
+            background: none;
+            border: 8px solid white;
+            transform: translate(130px, -320px);
+        }
+        
+        .mywork .text {
+            text-align: center;
+            color: gray;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        
+        .mywork .btn-primary {
+            margin-top: 10px;
+            padding: 10px 65px 10px 65px;
+            border: 0;
+            background: gray;
+            color: white;
+            font-weight: 500;
+        }
+        
+        .contact .text {
+            text-align: center;
+            color: gray;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        
+        .contact a {
+            font-size: 35px;
+            color: white;
+            font-weight: bold;
+        }
+        
+        .skill .text {
+            text-align: center;
+            color: gray;
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+        
+        .skill .subjud {
+            color: white;
+            font-weight: 700;
+            font-size: 30px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .skill .html {
+            background: rgb(7, 170, 7);
+            width: 90%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .css {
+            background: rgb(7, 170, 7);
+            width: 80%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .js {
+            background: rgb(7, 170, 7);
+            width: 80%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .vue {
+            background: rgb(7, 170, 7);
+            width: 80%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .bs {
+            background: rgb(255, 52, 38);
+            width: 65%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .tw {
+            background: rgb(255, 52, 38);
+            width: 60%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .py {
+            background: rgb(255, 52, 38);
+            width: 80%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
+        
+        .skill .go {
+            background: rgb(255, 52, 38);
+            width: 60%;
+            text-align: right;
+            font-size: large;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: 100;
+            margin-bottom: 20px;
+        }
